@@ -1,10 +1,10 @@
 describe('yearsAgo' , function(){
-    it('calculates how many years ago' , function(){
-        assert.equal("45", yearsAgo("1976"));
+    it('Should display the amount of years ago' , function(){
+        assert.equal("45", yearsAgo(1976));
 
     });
-    it(' should calculate how many years ago' , function(){
-        assert.equal("21", yearsAgo("2000"));
+    it('Should calculate the amount of years ago by getting todays date and subtracting the input' , function(){
+        assert.equal("21", yearsAgo(2000));
 
     });
 

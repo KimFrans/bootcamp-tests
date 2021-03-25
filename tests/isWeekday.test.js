@@ -1,10 +1,10 @@
 describe('isWeekday' , function(){
-    it('Checking if the day is a weekday' , function(){
-        assert.equal(false, isWeekday("Saturday"));
+    it('Should say that Monday is a weekday ' , function(){
+        assert.equal(true, isWeekday("Monday"));
 
     });
-    it('Checking if the day is a weekday' , function(){
-        assert.equal(true, isWeekday("Monday"));
+    it('Should say that Sunday is not a weekday' , function(){
+        assert.equal(false, isWeekday("Sunday"));
 
     });
 

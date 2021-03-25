@@ -1,10 +1,10 @@
 describe('countRegNumber' , function(){
-    it('Count the number of registration numbers' , function(){
+    it('Should display the amount of registration numbers' , function(){
         assert.equal(1, countRegNumber("12345 ND"));
 
     });
-    it('Count the number of registration numbers' , function(){
-        assert.equal(1, countRegNumber("12345 ND", "52614 CY"));
+    it('Should display the amount of registration numbers' , function(){
+        assert.equal(2, countRegNumber("CA 42665, AA 12 RT GP"));
 
     });
 
