@@ -7,5 +7,9 @@ describe('countAllPaarl' , function(){
         assert.equal("3", countAllPaarl("CA 12697 , CJ 58445, CA 84526, CJ 58469, CJ 58468")); 
 
     });
+    it('Should display the number of registrations for Paarl' , function(){
+        assert.equal("1", countAllPaarl("CA 12697 , CJ 58445, CA 84526, CA 58469, CF 58468")); 
+
+    });
 
 });

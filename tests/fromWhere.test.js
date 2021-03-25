@@ -7,5 +7,10 @@ describe('fromWhere' , function(){
         assert.equal("Paarl", fromWhere("CJ 65468"));
 
     });
+    it('Should display "Some other place!"' , function(){
+        assert.equal("Some other place!", fromWhere("CF 65468"));
+
+    });
+
 
 });

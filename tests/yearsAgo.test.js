@@ -7,5 +7,10 @@ describe('yearsAgo' , function(){
         assert.equal("21", yearsAgo(2000));
 
     });
+    it('Should display the amount of years ago' , function(){
+        assert.equal("23", yearsAgo(1998));
+
+    });
+
 
 });

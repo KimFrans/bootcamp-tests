@@ -8,5 +8,9 @@ describe('regCheck' , function(){
         assert.equal(false, regCheck("64648 CJ", "ND"));
 
     });
+    it('Should display "false" after checking that the registration is from a specific town' , function(){
+        assert.equal(false, regCheck("CY 189-012', 'CY"));
+
+    });
 
 });

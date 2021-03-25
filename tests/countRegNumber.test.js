@@ -7,5 +7,9 @@ describe('countRegNumber' , function(){
         assert.equal(2, countRegNumber("CA 42665, AA 12 RT GP"));
 
     });
+    it('Should display the amount of registration numbers' , function(){
+        assert.equal(3, countRegNumber("CA 42665, AA 12 RT GP, 12345 ND"));
+
+    });
 
 });

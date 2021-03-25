@@ -8,5 +8,9 @@ describe('isFromBellville' , function(){
         assert.equal(false, isFromBellville("CA 12345"));
 
     });
+    it('Should display "false" after checking that the registration is not from Bellville' , function(){
+        assert.equal(false, isFromBellville("CF 12345"));
+
+    });
 
 });

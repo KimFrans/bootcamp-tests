@@ -7,5 +7,9 @@ describe('totalPhoneBill' , function(){
         assert.equal("R1.30", totalPhoneBill("sms, sms"));
 
     });
+    it('Should display the output by calculating the amount of the individual input' , function(){
+        assert.equal("R6.80", totalPhoneBill("sms, sms, call, call"));
+
+    });
 
 });

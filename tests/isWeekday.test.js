@@ -7,5 +7,10 @@ describe('isWeekday' , function(){
         assert.equal(false, isWeekday("Sunday"));
 
     });
+    it('Should say that Friday is a weekday' , function(){
+        assert.equal(true, isWeekday("Friday"));
+
+    });
+
 
 });

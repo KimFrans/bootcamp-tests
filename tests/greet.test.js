@@ -7,5 +7,9 @@ describe('greet' , function(){
         assert.equal("Hello, Kelly", greet("Kelly"));
 
     });
+    it('Should greet Sam correctly' , function(){
+        assert.equal("Hello, Sam", greet("Sam"));
+
+    });
 
 });
